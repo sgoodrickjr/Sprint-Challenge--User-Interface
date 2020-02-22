@@ -245,3 +245,26 @@ p {
 .closingSection {
     padding: 3% 0;
 }
+
+/*
+PROJECT QUESTIONS
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+-I would describe semantic HTML as creating HTML tags with meaning. You don't just want a bunch of meaningless divs laying around because it can make your code confusing to other programmers that might read it.
+
+Name two big differences between display: block; and display: inline;.
+
+-with display: inline-block , the top and bottom margins/paddings are respected, but with display: inline they are not. Compared to display: block , the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+What are the 4 areas of the box model?
+
+-margin, border, padding, content
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+-the cross axis, or vertical axis
+
+Explain why git is valuable to a team of developers.
+
+-git allows teams of developers to be able to work together remotely in a seamless fashion. It allows developers to create branches from a master branch of code to create their own code which they can then re-incorporate back into the master as needed, thus making collaborating much easier. */
