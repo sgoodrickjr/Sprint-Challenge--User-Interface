@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+a {
+    padding-left: 8%;
+}
+
+img.headerImage {
+    padding-bottom: 3%;
+}
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
