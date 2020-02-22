@@ -78,7 +78,15 @@ nav {
 
 a {
     padding-left: 8%;
+    text-decoration: none;
+    color: black;
 }
+
+a:hover {
+    color: gray;
+}
+
+
 
 /*img.headerImage {
     padding-bottom: 3%;
