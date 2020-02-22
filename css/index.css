@@ -92,6 +92,7 @@ a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 1%;
 }
 
 .top-content .text-container {
