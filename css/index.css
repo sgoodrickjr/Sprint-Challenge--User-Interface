@@ -72,17 +72,17 @@ p {
 }
 
 nav {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 4%;
+    padding-bottom: 5%;
 }
 
 a {
     padding-left: 8%;
 }
 
-img.headerImage {
+/*img.headerImage {
     padding-bottom: 3%;
-}
+}*/
 
 
 
@@ -204,10 +204,43 @@ footer nav a {
 
 /* About Page */
 
+.overview {
+    
+    border-bottom: 2px dotted black;
+}
+
+h2 {
+    padding-top: 3%;
+}
+
+
+
+p {
+    padding-bottom: 3%;
+}
+
 #roundedButton {
-    border: 1px solid black;
+    border: 2px solid black;
     font-size: 16px;
     padding: 10px 20px;
     margin: 4px 2px;
     border-radius: 4px;
+}
+
+.offerings {
+    display: flex;
+}
+
+.strategy, .howWeWork, .placesWeWork, .collaboration{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    border-bottom: 2px dotted black;
+}
+
+.firstTwo {
+    padding-right: 5%;
+}
+
+.closingSection {
+    padding: 3% 0;
 }
