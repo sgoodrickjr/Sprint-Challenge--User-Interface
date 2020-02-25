@@ -71,12 +71,36 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+a {
+    padding-left: 8%;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+
+
+/*img.headerImage {
+    padding-bottom: 3%;
+}*/
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 1%;
 }
 
 .top-content .text-container {
@@ -112,6 +136,48 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +210,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
+.overview {
+    
+    border-bottom: 2px dotted black;
+}
+
+h2 {
+    padding-top: 3%;
+}
+
+
+
+p {
+    padding-bottom: 3%;
+}
+
+#roundedButton {
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
+
+.offerings {
+    display: flex;
+}
+
+.strategy, .howWeWork, .placesWeWork, .collaboration{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    border-bottom: 2px dotted black;
+}
+
+.firstTwo {
+    padding-right: 5%;
+}
+
+.closingSection {
+    padding: 3% 0;
+}
+
+/*
+PROJECT QUESTIONS
+
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+-I would describe semantic HTML as creating HTML tags with meaning. You don't just want a bunch of meaningless divs laying around because it can make your code confusing to other programmers that might read it.
+
+Name two big differences between display: block; and display: inline;.
+
+-with display: inline-block , the top and bottom margins/paddings are respected, but with display: inline they are not. Compared to display: block , the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+
+What are the 4 areas of the box model?
+
+-margin, border, padding, content
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+-the cross axis, or vertical axis
+
+Explain why git is valuable to a team of developers.
+
+-git allows teams of developers to be able to work together remotely in a seamless fashion. It allows developers to create branches from a master branch of code to create their own code which they can then re-incorporate back into the master as needed, thus making collaborating much easier. */
